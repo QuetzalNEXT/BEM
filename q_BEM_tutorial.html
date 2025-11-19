@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM tutorial</title>
+    <style>
+        .container{
+            width:500px;
+            border:5px solid rgb(89, 120, 167);
+        }
+        .article_img{
+            width:200px;
+        }
+        .normal{
+           border:10px solid rgb(165, 89, 42); 
+        }
+        .medium{
+            /*background-color: silver;*/
+            border:10px solid silver;
+        }
+        .premium{
+            /*background-color: gold;*/
+            border:10px solid gold;
+        }
+        .membership_label{
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container premium">
+        <img class="article_img" src="kitty.jpg">
+        <h1 class="premium membership_label">PREMIUM</h1>
+        <h2>Her er en overskrift</h2>
+        <p>Her kommer en paragraf (brødtekst)</p>
+    </div>
+    <div class="container medium">
+        <img class="article_img" src="istockphoto-1336021035-1024x1024.jpg">
+        <h1 class="medium membership_label">MEDIUM</h1>
+        <h2>Her er en overskrift</h2>
+        <p>Her kommer en paragraf (brødtekst)</p>
+    </div>
+    <div class="container normal">
+        <img class="article_img normal" src="istockphoto-820785324-1024x1024.jpg">
+        <h1 class="membership_label normal">NORMAL</h1>
+        <h2>Her er en overskrift</h2>
+        <p>Her kommer en paragraf (brødtekst)</p>
+    </div>
+   
+</body>
+</html>
